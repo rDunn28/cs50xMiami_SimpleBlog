@@ -1,8 +1,8 @@
 # For Windows...
 # set FLASK_APP=flaskr
 # set FLASK_ENV=development
+# flask run
 
-flask run
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, url_for
 )
